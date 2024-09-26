@@ -1,15 +1,11 @@
 package com.company;
-import com.company.ParentFinder;
-import com.company.NumberOfIslandII;
-
-//import javax.swing.*;
 //import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        LearnStructureTest.testLearnStructureTest();
+        //LearnStructureTest.testLearnStructureTest();
 
         //VowelsFrequency.testVowelsFrequency();
         //TempTimeSeries.testTempTimeSeries();
@@ -61,5 +57,7 @@ public class Main {
         //TribonacciNumber.testTribonacciNumber();
         //DeleteAndEarn.testDeleteAndEarn();
         //MaximumScorefromPerformingMultiplicationOperations.testMaximumScorefromPerformingMultiplicationOperations();
+
+        PasswordCombinationGenerator.test_PasswordCombinationGenerator();
     }
 }
