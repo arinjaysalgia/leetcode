@@ -44,14 +44,14 @@ public class RemoveLegoPiece {
 
     public boolean dfs(int[][] legoBlocks, List<List<Integer>> res, int x, int y, List<List<Integer>> connected){
 
-        if(x< 0 || x> legoBlocks.length -1 || y< 0 || y > legoBlocks[0].length - 1 || legoBlocks[x][y] == 0)
+        if(x < 0 || x > legoBlocks.length - 1 || y < 0 || y > legoBlocks[0].length - 1 || legoBlocks[x][y] == 0)
             return false;
         List<Integer> temp = new ArrayList<>();
         temp.add(x);
         temp.add(y);
         if(connected.contains(temp))
             return true;
-        if(x == legoBlocks.length -1 && y >=0 && y< legoBlocks[0].length && legoBlocks[x][y] == 1){
+        if(x == legoBlocks.length - 1 && y >= 0 && y < legoBlocks[0].length && legoBlocks[x][y] == 1){
             return true;
         }
         legoBlocks[x][y] = 0;
@@ -81,7 +81,7 @@ public class RemoveLegoPiece {
         List<List<Integer>> result = new LinkedList<>();
         List<List<Integer>> connected = new LinkedList<>();
         legoBlocks[pieceOut[0]][pieceOut[1]] = 0;
-        for(int i =0; i < m * n; i++){
+        for(int i = 0; i < m * n; i++){
             root[i] = i;
             rank[i] = i;
         }

@@ -41,7 +41,7 @@ public class  SupplyWater{
                 return false;
             if(rank[rootA] >= rank[rootB]){
                 root[rootB] = rootA;
-                rank[rootA] = rank[rootA] == rank[rootB] ? rank[rootA] +1 : rank[rootA];
+                rank[rootA] = rank[rootA] == rank[rootB] ? rank[rootA] + 1 : rank[rootA];
             }
             else{
                 root[rootA] = rootB;

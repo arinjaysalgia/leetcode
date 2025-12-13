@@ -7,7 +7,7 @@ public class Main {
 
         //LearnStructureTest.testLearnStructureTest();
 
-        //VowelsFrequency.testVowelsFrequency();
+        VowelsFrequency.testVowelsFrequency();
         //TempTimeSeries.testTempTimeSeries();
         //ParentFinder.testParentFinder();
         //MaximumPathQualityOfGraph.testMaximumPathQuality();
@@ -58,6 +58,6 @@ public class Main {
         //DeleteAndEarn.testDeleteAndEarn();
         //MaximumScorefromPerformingMultiplicationOperations.testMaximumScorefromPerformingMultiplicationOperations();
 
-        PasswordCombinationGenerator.test_PasswordCombinationGenerator();
+        //PasswordCombinationGenerator.test_PasswordCombinationGenerator();
     }
 }
